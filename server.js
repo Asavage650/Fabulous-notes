@@ -35,7 +35,7 @@ function createNewNotes(body, notesArray) {
 
   notesArray.push(newNotes);
   fs.writeFileSync(
-    path.json(__dirname, "./db/db.json"),
+    path.join(__dirname, "./db/db.json"),
     JSON.stringify(notesArray, null, 2)
   );
   return newNotes;
@@ -62,5 +62,5 @@ app.delete("/api/notes/:id", (req, res) => {
   res.json(true);
 });
 app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}`);
+  console.log(`API server now on port http://localhost:${PORT}`);
 });

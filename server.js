@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const app = express();
+const { v4: uuidv4 } = require("uuid");
 const PORT = process.env.PORT || 3001;
 const totalNotes = require("./db/db.json");
 
@@ -41,7 +42,7 @@ function createNewNotes(body, notesArray) {
   return newNotes;
 }
 app.post("/api/notes", (req, res) => {
-  const newNotes = createNewNotes(req.body, totalNotes);
+  const newNotes = createNewNotes(req.body, totalNotes, uuidv4);
   res.json(newNotes);
 });
 

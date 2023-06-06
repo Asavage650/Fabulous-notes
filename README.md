@@ -22,6 +22,14 @@ This application requires the user to install node, express, and it is deployed 
 
 ## Usage
 
+## ![Image of note page](</2023-06-05%20(7).png>)
+
+## ![Image of notes list being written](</2023-06-05%20(8).png>)
+
+## ![Image of notes list being saved in localhost](</2023-06-05%20(10).png>)
+
+## ![Image of notes saving in the db.json file with id's](</2023-06-05%20(11).png>)
+
 This application can be used to save notes or lists for future refernces or just to remind the user of something coming up the user can also delete any notes that are no longer useful to them.
 
 ## License

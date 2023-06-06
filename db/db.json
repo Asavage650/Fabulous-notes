@@ -1,18 +1,18 @@
 [
-  3,
+  5,
   {
     "title": "new notes",
     "text": "new notes",
     "id": null
   },
   {
-    "title": "new notes 2",
-    "text": "hehe",
-    "id": 1
+    "title": "Grocery List",
+    "text": "apples\nbananas\ngrapes",
+    "id": 3
   },
   {
-    "title": "notes 3",
-    "text": "notes 3",
-    "id": 2
+    "title": "hey new note",
+    "text": "this is my new list \nhehe",
+    "id": 4
   }
 ]

@@ -17,7 +17,7 @@ const writeToFile = (destination, content) =>
  *  Function to read data from a given a file and append some content
  *  @param {object} content The content you want to append to the file.
  *  @param {string} file The path to the file you want to save to.
- *  @returns {void} Nothing
+ *  @returns {void}
  */
 const readAndAppend = (content, file) => {
   fs.readFile(file, "utf8", (err, data) => {
